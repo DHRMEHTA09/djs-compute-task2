@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+}
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Poppins;
+  color: rgb(11, 85, 149);
+}
+p {
+  text-align: center;
+}
+.container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.plan-styling {
+  border-radius: 5px;
+  box-shadow: 25px 25px 50px rgb(10, 10, 10, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  width: 400px;
+  height: 500px;
+
+  align-items: center;
+  justify-content: start;
+}
+#box1 {
+  background: linear-gradient(blue, purple);
+}
+#box2 {
+  background: linear-gradient(rgb(0, 255, 128), rgb(128, 0, 45));
+}
+#box3 {
+  background: linear-gradient(rgb(0, 255, 247), rgb(255, 86, 221));
+}
+.list-styling {
+  line-height: 30px;
+  width: auto;
+  font-size: larger;
+}
+.list-styling:hover {
+  background: rgba(0, 0, 0, 0.2);
+
+  border-radius: 3px;
+  font-size: x-large;
+  color: white;
+}
+.para-style {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(37, 1, 114);
+}
+button {
+  height: 30px;
+  width: 80px;
+  background-color: black;
+  color: white;
+}
+/* rgba(29, 53, 87, 0.5) */
